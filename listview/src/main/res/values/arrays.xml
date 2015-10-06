@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array_list">
+        <item>始终</item>
+        <item>一律不</item>
+        <item>其他</item>
+        <item>来电时震动</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/rl_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text1"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_selector"
+            android:drawableLeft="@drawable/text_drawable_selector"
+            android:gravity="center"
+            android:text="text2"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/start_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Service"/>
+
+        <Button
+            android:id="@+id/stop_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Service"/>
+
+        <Button
+            android:id="@+id/bind_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bind Service"/>
+
+        <Button
+            android:id="@+id/unbind_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unbind Service"/>
+
+    </LinearLayout>
+
+    <com.yxhuang.listview.ViewPagerInListView.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

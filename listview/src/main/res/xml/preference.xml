@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="网络选择">
+        <CheckBoxPreference
+            android:key="network.only"
+            android:title="只有Wifi"
+            android:summaryOn="在有wifi的情况下开启"
+            android:summaryOff="在无wifi的情况下关闭"
+            android:defaultValue="false"/>
+        <ListPreference
+            android:key="network.retryCount"
+            android:title="Retry Count"
+            android:dialogTitle="震动"
+           android:summary="wifi选择"
+           android:entries="@array/my_array_list"
+            android:entryValues="@array/my_array_list"/>
+        <SwitchPreference
+            android:title="接收广播时间"
+            android:summaryOff="关闭之后不再接收新的广播"
+            android:summaryOn="在8:00--20:00接收广播"
+            android:key="network.broadcast"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="其他">
+        <PreferenceScreen
+            android:title="其他内容">
+            <intent
+                android:action="android.settings.WIFI_SETTINGS"></intent>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:gravity="center">
+<com.yxhuang.imageloader.view.SquareImageView
+    android:id="@+id/iv_grid_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@mipmap/image_default"/>
+</LinearLayout>
