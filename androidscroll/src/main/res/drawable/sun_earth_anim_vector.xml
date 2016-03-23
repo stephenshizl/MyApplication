@@ -1,0 +1,9 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/solar_system_drawable">
+    <target
+        android:name="sun"
+        android:animation="@anim/sun_anim" />
+    <target
+        android:name="earth"
+        android:animation="@anim/earth_anim" />
+</animated-vector>

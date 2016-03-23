@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidScroll</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_color_matrix">ColorMatrix</string>
+    <string name="title_activity_image_matrix_view">ImageMatrixViewActivity</string>
+    <string name="title_activity_flag_bitmap_mesh">FlagBitmapMeshActivity</string>
+    <string name="title_activity_proper_animation_test">ProperAnimationTestActivity</string>
+</resources>

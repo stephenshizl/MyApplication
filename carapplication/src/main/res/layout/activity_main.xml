@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/car_flyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@color/material_grey_100"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/main_tv_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/main_tv_news_selector"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="头条"/>
+
+        <TextView
+            android:id="@+id/main_tv_community"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/main_tv_community_selector"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="社区"/>
+
+        <TextView
+            android:id="@+id/main_tv_select_car"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/main_tv_select_car_selector"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选车"/>
+
+        <TextView
+            android:id="@+id/main_tv_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/main_tv_mine_selector"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的"/>
+
+    </LinearLayout>
+
+</LinearLayout>

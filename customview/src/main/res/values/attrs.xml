@@ -21,4 +21,18 @@
         <attr name="pointerRadius" format="dimension"/>
         <attr name="mshowText" format="boolean"/>
     </declare-styleable>
+    
+    <declare-styleable name="ToBar">
+        <attr name="toBartitle" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="toBartitleTextColor" format="color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+    </declare-styleable>
 </resources>

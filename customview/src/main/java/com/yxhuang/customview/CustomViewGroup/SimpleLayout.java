@@ -34,6 +34,5 @@ public class SimpleLayout extends ViewGroup {
             View childView = getChildAt(0);
             childView.layout(0, 0, childView.getMeasuredWidth(), childView.getMeasuredHeight());
         }
-
     }
 }

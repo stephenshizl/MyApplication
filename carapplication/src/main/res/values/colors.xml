@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- 主界面选择文字的颜色-->
+    <color name="car_cl_choose">#99CCCC</color>
+    <color name="car_cl_unchoose">#000000</color>
+
+    <!--listview header -->
+    <color name="image_select_choose">#FFCC99</color>
+    <color name="image_select_unchoose">#CCCCCC</color>
+
+    <!--找车界面-->
+    <color name="find_car_header_bg_selected">#FF9933</color>
+    <color name="find_car_header_bg_unselected">#FFFFFF</color>
+    <color name="find_car_header_tv_pressed">#FFFFFF</color>
+    <color name="find_car_header_tv_unpressed">#FF9933</color>
+
+</resources>

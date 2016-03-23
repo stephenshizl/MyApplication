@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.yxhuang.listview.R;
 import com.yxhuang.listview.Service.MeidaTranscoder;
 import com.yxhuang.listview.Service.UploadImageIntentService;
 
@@ -46,6 +45,8 @@ public class UploadImageActivity extends AppCompatActivity {
                 Log.i("yxh", "启动 MeidaTranscoder");
             }
         });
+
+        String
     }
 
     /**

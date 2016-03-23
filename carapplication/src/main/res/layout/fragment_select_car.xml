@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/fragment_find_tv_brand"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="品牌找车"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@drawable/tv_praise_selector"/>
+        <TextView
+            android:id="@+id/fragment_find_tv_filter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="精准找车"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@drawable/tv_praise_selector"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_find_flyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

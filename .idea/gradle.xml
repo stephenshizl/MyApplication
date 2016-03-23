@@ -5,17 +5,47 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.4" />
-        <option name="gradleJvm" value="1.7" />
+        <option name="gradleHome" value="D:\Program Files\Android\gradle\gradle-2.10" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android5.x" />
+            <option value="$PROJECT_DIR$/androidipcconnection" />
+            <option value="$PROJECT_DIR$/androidscroll" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/applicationutil" />
+            <option value="$PROJECT_DIR$/carapplication" />
+            <option value="$PROJECT_DIR$/carimageload" />
             <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/downloaddemo" />
+            <option value="$PROJECT_DIR$/getcrashhandlerinfo" />
             <option value="$PROJECT_DIR$/imageloader" />
             <option value="$PROJECT_DIR$/listview" />
-            <option value="$PROJECT_DIR$/recyclerviewdemo" />
+            <option value="$PROJECT_DIR$/memoryleaktest" />
+            <option value="$PROJECT_DIR$/myvolley" />
+            <option value="$PROJECT_DIR$/navigationdrawer" />
+            <option value="$PROJECT_DIR$/other" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android5.x" />
+            <option value="$PROJECT_DIR$/androidipcconnection" />
+            <option value="$PROJECT_DIR$/androidscroll" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/applicationutil" />
+            <option value="$PROJECT_DIR$/carapplication" />
+            <option value="$PROJECT_DIR$/carimageload" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/downloaddemo" />
+            <option value="$PROJECT_DIR$/getcrashhandlerinfo" />
+            <option value="$PROJECT_DIR$/imageloader" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/memoryleaktest" />
+            <option value="$PROJECT_DIR$/myvolley" />
+            <option value="$PROJECT_DIR$/navigationdrawer" />
+            <option value="$PROJECT_DIR$/other" />
           </set>
         </option>
       </GradleProjectSettings>

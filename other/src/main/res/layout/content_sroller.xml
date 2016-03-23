@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.other.sroll.ScrollerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="200dp">
+
+    <Button
+        android:id="@+id/btn_scroll_to"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SCROLL_TO"/>
+    <Button
+        android:id="@+id/btn_scroll_by"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SCROLL_BY"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="最后一个"/>
+
+</com.example.administrator.other.sroll.ScrollerLayout>

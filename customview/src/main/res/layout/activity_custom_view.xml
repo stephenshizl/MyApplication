@@ -1,10 +1,46 @@
-<com.yxhuang.customview.CustomViewGroup.SimpleLayout
-                  xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <TextView
-        android:text="@string/hello_world"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="顶部"/>
 
-</com.yxhuang.customview.CustomViewGroup.SimpleLayout>
+    <!--自定义组合控件-->
+    <com.yxhuang.customview.CustomText.TopBar
+        android:id="@+id/tobar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        custom:leftText="返回"
+        custom:leftTextSize="14sp"
+        custom:leftTextColor="#333333"
+        custom:rightText="选择"
+        custom:rightTextSize="14sp"
+        custom:rightTextColor="#333333"
+        custom:toBartitle="自定义标题"
+        custom:titleTextSize="16sp"
+        custom:toBartitleTextColor="#333333"
+        android:background="#CCCC99">
+
+    </com.yxhuang.customview.CustomText.TopBar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"/>
+
+    <com.yxhuang.customview.CustomText.ShowdowTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="我的"
+        android:textSize="18sp"/>
+    <com.yxhuang.customview.CustomText.VolumeView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+</LinearLayout>
+

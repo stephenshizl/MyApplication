@@ -145,7 +145,7 @@ public class MainActivity extends Activity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup viewGroup) {
-            ViewHolder holder = null;
+            ViewHolder holder;
             if (convertView == null){
                 convertView = mInflater.inflate(R.layout.item_grid_view, viewGroup, false);
                 holder = new ViewHolder();

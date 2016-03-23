@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/new_head_view"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_header_default"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/image_default"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tv_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="新老车主购物快看"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/iv_header_indicator1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/image_select_choose"/>
+            <ImageView
+                android:id="@+id/iv_header_indicator2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/image_select_unchoose"/>
+            <ImageView
+                android:id="@+id/iv_header_indicator3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/image_select_unchoose"/>
+            <ImageView
+                android:id="@+id/iv_header_indicator4"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/image_select_unchoose"/>
+            <ImageView
+                android:id="@+id/iv_header_indicator5"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/image_select_unchoose"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

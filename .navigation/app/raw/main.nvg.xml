@@ -6,7 +6,7 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.administrator.myapplication.SecondDisplayDemo"/>
+        className = "com.example.administrator.carimageloader.SecondDisplayDemo"/>
       <point      
         x = "1352"      
         y = "104"/>
@@ -14,7 +14,7 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
-        className = "com.example.administrator.myapplication.MainActivity"/>
+        className = "com.example.administrator.carimageloader.MainActivity"/>
       <point      
         x = "564"      
         y = "112"/>

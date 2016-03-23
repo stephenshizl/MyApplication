@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <!--  <view
+        class="com.example.administrator.androidscroll.colorMatrix.FlagBitmapMeshView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+<!--<com.example.administrator.androidscroll.colorMatrix.RoundRectXfermodeView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+   <!-- <com.example.administrator.androidscroll.colorMatrix.XfermodeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+   <!-- <com.example.administrator.androidscroll.colorMatrix.CricleShaderView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+-->
+    <!--倒影-->
+<!--
+    <com.example.administrator.androidscroll.colorMatrix.ReflectView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+-->
+    <com.example.administrator.androidscroll.colorMatrix.SinView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/item_main_news_iv_cart"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/main_new_defoult"/>
+
+    <TextView
+        android:id="@+id/item_main_news_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/item_main_news_iv_cart"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/item_main_news_iv_cart"
+        android:text="标题"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/item_main_news_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_main_news_iv_cart"
+        android:layout_alignLeft="@id/item_main_news_tv_title"
+        android:text="2015-10-18"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/item_main_news_tv_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/item_main_news_iv_cart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="评论"
+        android:textSize="16sp"/>
+</RelativeLayout>
