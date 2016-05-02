@@ -3,6 +3,7 @@ package com.example.administrator.other.sroll;
 import android.content.Context;
 import android.support.v4.view.ViewConfigurationCompat;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
@@ -120,7 +121,10 @@ public class ScrollerLayout extends ViewGroup {
         // 重写 computeScroll 方法，并在内部完成平滑滚动的逻辑
         if (mScroller.computeScrollOffset()){
             scrollTo(mScroller.getCurrX(), mScroller.getCurrY());
+            Log.i("yxh", " computeScroll thread " + Thread.currentThread().getName());
             invalidate();
+            postInvalidate();
+
         }
     }
 

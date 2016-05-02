@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/androidscroll/androidscroll.iml" filepath="$PROJECT_DIR$/androidscroll/androidscroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/applicationutil/applicationutil.iml" filepath="$PROJECT_DIR$/applicationutil/applicationutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artbook/artbook.iml" filepath="$PROJECT_DIR$/artbook/artbook.iml" />
       <module fileurl="file://$PROJECT_DIR$/carapplication/carapplication.iml" filepath="$PROJECT_DIR$/carapplication/carapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/carimageload/carimageload.iml" filepath="$PROJECT_DIR$/carimageload/carimageload.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />

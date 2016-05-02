@@ -23,4 +23,10 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="启动一个新的Activity 验证 onSaveInstanceState"/>
+
+    <Button
+        android:id="@+id/btn_scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scroller"/>
 </RelativeLayout>

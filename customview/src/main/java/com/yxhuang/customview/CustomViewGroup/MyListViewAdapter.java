@@ -3,7 +3,6 @@ package com.yxhuang.customview.CustomViewGroup;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -23,7 +22,7 @@ public class MyListViewAdapter extends ArrayAdapter<String> {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, View parent) {
         View view;
         if (convertView == null){
             view = LayoutInflater.from(mContext).inflate(R.layout.my_list_view_item,  null);

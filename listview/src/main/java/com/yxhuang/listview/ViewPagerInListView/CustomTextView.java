@@ -45,6 +45,7 @@ public class CustomTextView extends FrameLayout  implements View.OnClickListener
 
        tv1.setOnClickListener(this);
        tv2.setOnClickListener(this);
+
        tv3.setOnClickListener(this);
 
        if ( !mStrings.isEmpty() && mStrings.size() >0 ){

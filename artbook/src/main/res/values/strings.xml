@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ArtBook</string>
+    <string name="title_activity_touch_delegate">TouchDelegateActivity</string>
+</resources>

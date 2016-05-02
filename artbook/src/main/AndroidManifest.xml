@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.administrator.artbook"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".TouchDelegateActivity"
+            android:label="@string/title_activity_touch_delegate"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".InterceptTouchEventActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name="com.yxhuang.handler.HandlerActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name="com.yxhuang.artbook.ipc.FirstActivity">
+        </activity>
+        <activity
+            android:name="com.yxhuang.artbook.ipc.SecondActivity"
+            android:process=":remote">
+        </activity>
+        <activity
+            android:name="com.yxhuang.artbook.ipc.ThirdActivity"
+            android:process="com.example.administrator.artbook.remote">
+        </activity>
+
+        <service
+            android:name="com.yxhuang.artbook.ipc.MessengerService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+        </service>
+
+        <activity android:name="com.yxhuang.artbook.ipc.MessengerActivity">
+
+            <!--
+                <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
+
+        <service
+            android:name="com.yxhuang.boundService.LocalService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name="com.yxhuang.boundService.BindingActivity">
+        </activity>
+
+        <service
+            android:name="com.yxhuang.boundService.MessengerService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name="com.yxhuang.boundService.MessengerActivity">
+        </activity>
+
+        <service
+            android:name="com.yxhuang.aidl.BookManagerService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <provider
+            android:name="com.yxhuang.aidl.BookProvider"
+            android:authorities="com.example.administrator.artbook.provider"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.yxhuang.PROVIDER">
+        </provider>
+
+        <activity android:name="com.yxhuang.aidl.ProviderActivity">
+
+        </activity>
+
+        <service
+            android:name="com.yxhuang.socket.TCPServerService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name="com.yxhuang.socket.TCPClientActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,1 +1,1 @@
-include ':app', ':listview', ':applicationutil', ':customview', ':imageloader', ':carapplication', ':carimageload', ':getcrashhandlerinfo', ':androidscroll', ':myvolley', ':android5.x', ':other', ':downloaddemo', ':memoryleaktest', ':androidipcconnection', ':navigationdrawer'
+include ':app', ':listview', ':applicationutil', ':customview', ':imageloader', ':carapplication', ':carimageload', ':getcrashhandlerinfo', ':androidscroll', ':myvolley', ':android5.x', ':other', ':downloaddemo', ':memoryleaktest', ':androidipcconnection', ':navigationdrawer', ':artbook'
