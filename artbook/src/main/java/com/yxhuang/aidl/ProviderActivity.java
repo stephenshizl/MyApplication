@@ -31,8 +31,11 @@ public class ProviderActivity extends AppCompatActivity {
             Log.i(TAG, "query book " + book.toString());
         }
         bookCursor.close();
+    }
 
-
-
+    @Override
+    protected void onUserLeaveHint() {
+        super.onUserLeaveHint();
+        Log.i("window_test", "ProviderActivity onUserLeaveHint");
     }
 }

@@ -119,7 +119,6 @@
         </provider>
 
         <activity android:name="com.yxhuang.aidl.ProviderActivity">
-
         </activity>
 
         <service
@@ -129,6 +128,18 @@
         </service>
 
         <activity android:name="com.yxhuang.socket.TCPClientActivity">
+        </activity>
+        <activity android:name="com.yxhuang.window.WindowTestActivity">
+
+        </activity>
+
+        <service
+            android:name="com.yxhuang.broadcast.CounterService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name="com.yxhuang.broadcast.BroadcounterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
